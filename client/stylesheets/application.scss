@@ -1,0 +1,140 @@
+@import "tools/ionicons";
+@import "tools/extends";
+@import "tools/bulma";
+
+@import "components/generic/jumbotron";
+@import "components/generic/markdown";
+@import "components/generic/panel";
+@import "components/generic/forms/form-control";
+
+@import "components/global/loading";
+
+@import "components/views/login";
+
+
+.bubble {
+  background-color: #edf9ff;
+  min-width: 100px;
+  padding-right: 40px;
+  padding: 14px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  border: 1px solid #c7dce7;
+  position: relative;
+}
+
+.tab-content {
+  background: #fff;
+}
+
+.navbar-left {
+  float:none !important;
+}
+
+.navbar {
+  border-radius: 0px;
+ position: inherit;
+ min-height: 0px;
+ margin-bottom: 0px;
+ border: none
+}
+
+.is-fullheight {
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+  border-top: 1px solid #eee;
+}
+
+
+//
+// @media screen and (max-width: 980px)
+//   .container.is-fluid {
+//       padding: 0px
+//   }
+// }
+
+
+
+
+// Override bootstrap
+// container behaviour
+@media (min-width: 768px) {
+  .container {
+      width: auto;
+  }
+}
+// hyperlink underline
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+.tabs.detail {
+  box-shadow: 0px 1px 5px #DDD;
+
+  ul {
+    border-bottom: 1px solid #DDD;
+    // padding: 5px;
+  }
+  a {
+    text-decoration: none;
+    border: 0px;
+    padding: 15px 0px;
+    text-align: center;
+    height: 90px;
+    width: 120px;
+    margin-bottom: 0px;
+    transition: all .1s ease-out;
+
+    i {
+      font-size: 40px;
+      width: auto;
+      margin: 10px 0;
+    }
+    span {
+      font-size: 10px;
+      text-transform: uppercase;
+    }
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  li {
+    a {
+      background: #FFF;
+      color: #7F9194;
+    }
+  }
+  li.active {
+    a {
+      background: #40484E;
+      color: #FFF;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .tabs.detail {
+    ul {
+      border-bottom: 1px solid #DDD;
+    }
+    a {
+      padding: 15px 0px;
+      height: 90px;
+      width: 100px;
+    }
+  }
+}
+
+
+
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}

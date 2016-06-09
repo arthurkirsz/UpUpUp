@@ -1,0 +1,232 @@
+
+.panel {
+    -webkit-box-shadow: 0 5px 5px -5px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 5px 5px -5px rgba(0, 0, 0, .1);
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, .1);
+    border: 0!important;
+    margin-bottom: 25px;
+    border-radius: 0
+}
+@media (min-width: 768px) {
+    .panel>.row>div:first-child {
+        padding-left: 15px;
+        padding-right: 0
+    }
+    .panel>.row>div:last-child {
+        padding-left: 0;
+        padding-right: 15px
+    }
+}
+.panel .panel-heading {
+    padding: 20px;
+    overflow: hidden;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border: 0!important;
+    height: 55px;
+    font-size: 14px;
+    font-weight: 600
+}
+.panel .panel-heading .panel-title {
+    font-size: 14px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    font-weight: 600
+}
+.panel .panel-heading .panel-title small {
+    font-size: 80%
+}
+.panel .panel-heading .panel-control {
+    float: right;
+    height: auto
+}
+.panel .panel-heading .panel-control a {
+    text-decoration: none;
+    color: #ccc;
+    margin-left: 5px;
+    font-size: 14px;
+    float: left
+}
+.panel .panel-heading .panel-control a:hover {
+    color: #a2a2a2
+}
+.panel .panel-body {
+    position: relative;
+    padding: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0
+}
+.panel .panel-heading+.panel-body {
+    padding: 0 20px 20px
+}
+.panel-default .panel-heading {
+    background: #f1f1f1;
+    border-color: #e7e7e7
+}
+.panel-default .panel-heading .panel-control a {
+    color: #bbb
+}
+.panel-default .panel-heading .panel-control a:hover {
+    color: #a2a2a2
+}
+.panel-primary .panel-heading {
+    background: #7a6fbe;
+    color: #fff
+}
+.panel-primary .panel-heading .panel-control a {
+    color: #fff
+}
+.panel-primary .panel-heading .panel-control a:hover {
+    color: #f1f1f1
+}
+.panel-success .panel-heading {
+    background: #22BAA0;
+    color: #fff
+}
+.panel-success .panel-heading .panel-control a {
+    color: #fff
+}
+.panel-success .panel-heading .panel-control a:hover {
+    color: #f1f1f1
+}
+.panel-info .panel-heading {
+    background: #12AFCB;
+    color: #fff
+}
+.panel-info .panel-heading .panel-control a {
+    color: #fff
+}
+.panel-info .panel-heading .panel-control a:hover {
+    color: #f1f1f1
+}
+.panel-warning .panel-heading {
+    background: #f6d433;
+    color: #fff
+}
+.panel-warning .panel-heading .panel-control a {
+    color: #fff
+}
+.panel-warning .panel-heading .panel-control a:hover {
+    color: #f1f1f1
+}
+.panel-danger .panel-heading {
+    background: #f25656;
+    color: #fff
+}
+.panel-danger .panel-heading .panel-control a {
+    color: #fff
+}
+.panel-danger .panel-heading .panel-control a:hover {
+    color: #f1f1f1
+}
+.panel-transparent {
+    background: 0 0;
+    box-shadow: none
+}
+.panel-transparent .panel-heading .panel-control a {
+    color: #ccc
+}
+.panel-transparent .panel-heading .panel-control a:hover {
+    color: #a2a2a2
+}
+.panel-white {
+    background: #fff;
+    border: 1px solid #e9e9e9!important
+}
+.panel-white .panel-heading .panel-control a {
+    color: #ccc
+}
+.panel-white .panel-heading .panel-control a:hover {
+    color: #a2a2a2
+}
+.panel-purple {
+    background: #7a6fbe
+}
+.panel-purple .panel-body,
+.panel-purple .panel-heading,
+.panel-purple .panel-heading .panel-control a {
+    color: #fff
+}
+.panel-purple .panel-heading .panel-control a:hover {
+    color: #f1f1f1
+}
+.panel-green {
+    background: #22BAA0
+}
+.panel-green .panel-body,
+.panel-green .panel-heading,
+.panel-green .panel-heading .panel-control a {
+    color: #fff
+}
+.panel-green .panel-heading .panel-control a:hover {
+    color: #f1f1f1
+}
+.panel-blue {
+    background: #12AFCB
+}
+.panel-blue .panel-body,
+.panel-blue .panel-heading,
+.panel-blue .panel-heading .panel-control a {
+    color: #fff
+}
+.panel-blue .panel-heading .panel-control a:hover {
+    color: #f1f1f1
+}
+.panel-yellow {
+    background: #f6d433
+}
+.panel-yellow .panel-body,
+.panel-yellow .panel-heading,
+.panel-yellow .panel-heading .panel-control a {
+    color: #fff
+}
+.panel-yellow .panel-heading .panel-control a:hover {
+    color: #f1f1f1
+}
+.panel-red {
+    background: #f25656
+}
+.panel-red .panel-body,
+.panel-red .panel-heading,
+.panel-red .panel-heading .panel-control a {
+    color: #fff
+}
+.panel-red .panel-heading .panel-control a:hover {
+    color: #f1f1f1
+}
+.panel-placeholder {
+    border: 2px dashed #ddd;
+    margin-bottom: 20px
+}
+
+
+.info-box .progress {
+    margin: 0
+}
+.info-box .info-box-icon {
+    float: right
+}
+.info-box .info-box-icon i {
+    font-size: 31px;
+    color: #B0B0B0
+}
+.info-box .info-box-stats {
+    float: left;
+    margin-top: 5px
+}
+.info-box .info-box-stats p {
+    font-size: 28px;
+    margin-bottom: 14px;
+    color: #374051;
+    font-weight: 400
+}
+.info-box .info-box-stats span.info-box-title {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: #B0B0B0
+}
+.info-box .info-box-progress {
+    clear: both
+}

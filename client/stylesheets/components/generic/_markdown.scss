@@ -1,0 +1,100 @@
+
+
+.editable {
+  outline: none;
+  margin: 0;
+  padding: 20px;
+  border: none;
+  min-height: 100px;
+}
+
+#review-editor-wrapper {
+  background: #F5F5F5;
+  margin: 20px 0;
+  padding: 20px;
+}
+#review-editor-wrapper .editable {
+  border: 1px solid red;
+}
+
+
+.medium-editor-placeholder:after {
+  padding: 20px;
+  font-style: normal
+}
+
+.markdown-container {
+  background: #fff;
+  border: 1px solid #d3d6db;
+  border-radius: 3px;
+  color: #222324;
+  font-size: 14px;
+  line-height: 24px;
+  position: relative;
+  vertical-align: top;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  display: block;
+  background: #FFF;
+  padding: 30px 20px
+}
+
+
+
+
+.medium-editor-toolbar-active{
+box-shadow:none;
+}
+.medium-editor-toolbar li button {
+background: none;
+-webkit-background: none;
+}
+
+
+
+
+.medium-toolbar-arrow-under:after {
+border-color: #47525d transparent transparent transparent;
+top: 40px; }
+
+.medium-toolbar-arrow-over:before {
+border-color: transparent transparent #47525d transparent; }
+
+.medium-editor-toolbar {
+background: #47525d;
+border: none;
+border-radius: 50px;
+border-radius: 5px;
+
+}
+.medium-editor-toolbar li button {
+background-color: #47525d;
+border: none;
+box-sizing: border-box;
+color: #ccc;
+height: 40px;
+min-width: 40px;
+padding: 5px 12px;
+box-shadow:none;
+transition: all 0s;
+  i {
+  font-size: 15px;
+  vertical-align: middle;
+  }
+}
+.medium-editor-toolbar li button:hover {
+background-color: #444E58;
+color: #FFF;
+}
+.medium-editor-toolbar li .medium-editor-button-first {
+padding-left: 24px;
+}
+.medium-editor-toolbar li .medium-editor-button-last {
+padding-right: 24px;
+}
+.medium-editor-toolbar li .medium-editor-button-active {
+background:none;
+background-color: #47525d;
+background-color: #444E58;
+color: #FFF;
+font-weight: bold;
+}

@@ -1,0 +1,15 @@
+.DS_Store
+settings-production.json
+npm-debug.log
+
+.idea
+*.css
+
+### OSX ###
+.DS_Store
+._*
+
+settings*.json
+deploy.sh
+
+node_modules/
